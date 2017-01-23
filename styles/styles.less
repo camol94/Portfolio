@@ -1,0 +1,76 @@
+body {
+	font-style: "Times New Roman", serif;
+	font-size: 17px;
+}
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.nav {
+	background: #000000;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+#main-menu {
+
+	a {
+		color: #fff;
+		text-decoration: none;
+		text-transform: uppercase;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+	.center;
+	ul {
+		height: 49px;
+		li {
+			display: inline;
+			padding: 15px 10px;
+			line-height: 45px;
+		}
+	}
+}
+.slicknav_menu {
+	display: none;
+}
+@media screen and (max-width: 40em) {
+	/* #menu is the original menu */
+	#menu {
+		display:none;
+	}
+	
+	.slicknav_menu {
+		display:block;
+	}
+}
+section {
+	padding: 50px 25px;
+	.title {
+		margin: 0 auto;
+		h1 {
+		.center;
+		margin-top: 40px;		
+		font-size: 48px;
+		border-radius: 50%;
+		}
+	}
+	.title::after {
+		display: block;
+		margin: 0 auto;
+		content: "";
+		width: 120px;
+		border-bottom: 3px solid black;
+		.center;
+	}
+}
+.about {
+}
+.portfolio {
+	background: #cccccc;
+}
+.skills {
+	background: #cccccc;
+}
