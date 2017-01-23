@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<title>Kamil Bala Portfolio</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- jQuery 182 -->
+	<script src="js/jquery.js"></script>
+	<!-- style less -->
+	<link rel="stylesheet" type="text/less" href="styles/main.less">
+	<!-- JS LESS -->
+	<script src="js/less.min.js"></script>
+	<!-- STYLE CSS -->
+	<link rel="stylesheet" type="text/css" href="styles/main.css">
+	<!-- Font Awesome -->	
+	<link rel="stylesheet" href="styles/font-awesome.css">
+	<!-- MENU MOBILNE -->
+	<link rel="stylesheet" href="styles/slicknav.css" />
+	<script src="js/jquery.slicknav.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Cormorant" rel="stylesheet">
+
+</head>
+<body>
+
+<div class="nav">
+	<div class="container">
+		<div id="main-menu">
+		    <ul id="menu">
+		    	<li><a href="#about">O mnie</a></li>
+		    	<li><a href="#portfolio">Moje prace</a></li>
+		    	<li><a href="#items">Moje narzędzia</a></li>
+		    	<li><a href="#skills">Umiejętności</a></li>
+		    	<li><a href="#contact">Kontakt</a></li>
+			</ul>
+		</div>
+		
+		<div id="demo2"></div>
+	</div>
+</div>
+<section id="about" class="about">
+	<div class="container">
+		<div class="title"><h1>O mnie</h1></div>
+		<p>Witam! Nazywam się <span>Kamil Bała</span></p>
+		<p>Już od wczesnych lat szkolnych interesowałem się stronami internetowymi, zaczynałem od robienia prostych stron opartych na tabelkach, jednak z czasem zajawka na programowanie minęła. Teraz gdy jestem już 23 letnim facetem znów pojawiła się ochota na <i>"robienie internetów"</i>. Od kilku miesięcy uczę się <span>HTML</span>, <span>CSS</span> oraz <span>LESS</span>, a od niedawna zacząłem również troszkę <span>JavaScript</span> oraz <span>jQuery</span>.</p>
+	</div>
+</section>
+<section id="portfolio" class="portfolio">
+	<div class="container">
+		<div class="title"><h1>Moje prace</h1><small>Czyli co już zrobiłem</small></div>
+			<div class="portfolio-item row">
+				<div class="col-12">
+					<div class="col-4 portfolio-item-img"><img src="images/port3.png"></div>
+					<div class="col-4 portfolio-item-content">
+						<h2>Trzecia strona.</h2><p>Inspiracja z tego projektu: <a href="http://www.os-templates.com/website-templates/template-demos/free-psd-templates/concomitant/images/preview.jpg" target="_blank">Click</a></p>
+					</div>
+					<div class="col-4 portfolio-item-links">
+						<h2>Zobacz strone</h2>
+						<span><a href="https://camol94.github.io/Projectpage/" target="_blank"><i class="fa fa-globe" aria-hidden="true"></i>WWW</a></span>
+      					<span><a href="https://github.com/camol94/Projectpage" target="_blank"><i class="fa fa-github" aria-hidden="true" ></i>GITHUB</a></span>
+					</div>
+				</div>
+			</div>
+			<div class="portfolio-item row">
+				<div class="col-12">
+					<div class="col-4 portfolio-item-img"><img src="images/port2.png"></div>
+					<div class="col-4 portfolio-item-content">
+						<h2>Druga strona.</h2><p>Inspiracja z tego projektu: <a href="http://www.os-templates.com/website-templates/template-demos/free-website-templates/escarine-veh/" target="_blank">Click</a></p>
+					</div>
+					<div class="col-4 portfolio-item-links">
+						<h2>Zobacz strone na żywo</h2>
+						<span><a href="https://camol94.github.io/CompanySite/" target="_blank"><i class="fa fa-globe" aria-hidden="true"></i>WWW</a></span>
+      					<span><a href="https://github.com/camol94/CompanySite" target="_blank"><i class="fa fa-github" aria-hidden="true"></i>GITHUB</a></span>
+					</div>
+				</div>
+			</div>
+			<div class="portfolio-item row">
+				<div class="col-12">
+					<div class="col-4 portfolio-item-img"><img src="images/port1.png"></div>
+					<div class="col-4 portfolio-item-content">
+						<h2>Moja pierwsza strona.</h2><p>Inspiracja nie wiadomo z czego a może po prostu nie pamiętam. ; )</p>				
+					</div>
+					<div class="col-4 portfolio-item-links">
+						<h2>Zobacz strone na żywo</h2>
+						<span><a href="https://camol94.github.io/6-Sunshine/" target="_blank"><i class="fa fa-globe" aria-hidden="true"></i>WWW</a></span>
+      					<span><a href="https://github.com/camol94/6-Sunshine" target="_blank"><i class="fa fa-github" aria-hidden="true"></i>GITHUB</a></span>
+					</div>
+				</div>
+			</div>
+	</div>
+</section>
+<section id="items" class="items">
+	<div class="container">
+		<div class="title"><h1>Moje narzędzia</h1><small>Czyli z czym pracuje</small></div>
+		<p>info czego uzywam</p>
+	</div>
+</section>
+<section id="skills" class="skills">
+	<div class="container">
+		<div class="title"><h1>Moje umiejętności</h1><small>Czyli co potrafię</small></div>
+		<p>Ciężko jest mi znaleźć jakąkolwiek skale, pewnie każdemu byłoby ciężko kto dopiero zaczyna swoją prawdziwą przygodę z front-endem, dlatego nie zanmieszczę tutaj żadnych procentów, gwiazdek czy innych obrazków, po prostu obejżyj moje "wynalazki" powyżej i sam oceń to co potrafię a czego nie.</p><p>Od siebie dodam tyle, że to moje początki i chciałbym się jeszcze wiele nauczyć.</p>
+	</div>
+</section>
+<section id="contact" class="contact">
+	<div class="container">
+		<div class="title"><h1>Skontaktuj się ze mną</h1></div>
+		<form method="post" action="mail/kontakt.php">
+        
+    <label>Imię i nazwisko</label>
+    <input name="name" placeholder="Jan Kowalski">
+            
+    <label>Email</label>
+    <input name="email" type="email" placeholder="mail@mail.com">
+            
+    <label>Wiadomość</label>
+    <textarea name="message" placeholder="Napisz tu wiadomość"></textarea>
+            
+    <input id="submit" name="submit" type="submit" value="Wyślij">        
+</form>
+
+
+	</div>
+</section>
+<footer>
+	<div class="container">
+		<div class="social">
+			<a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+      		<a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+      		<a href=""><i class="fa fa-github" aria-hidden="true"></i></a>
+		</div>
+		<div class="copy">Copyright © 2017 Kamil Bała</div>
+	</div>
+</footer>
+<script>
+	$('#menu').slicknav({
+	label: '',
+	duration: 1000,
+	easingOpen: "easeOutBounce", //available with jQuery UI
+	easingClose: "swing",
+	closeOnClick:'true',
+	prependTo:'#demo2'
+});
+</script>
+</body>
+</html>
