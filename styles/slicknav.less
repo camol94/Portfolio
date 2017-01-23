@@ -3,6 +3,7 @@
  * (c) 2016 Josh Cope
  * licensed under MIT
  */
+ @accent-color: #30ACC9;
 .slicknav_btn {
   position: relative;
   display: block;
@@ -79,7 +80,6 @@
   font-size: 16px;
   box-sizing: border-box;
   background: rgba(0,0,0,0.6);
-
   padding: 5px;
   position: fixed;
   top: 0;
@@ -131,11 +131,7 @@
     text-decoration: none;
     color: #fff; }
     .slicknav_nav a:hover {
-      -webkit-border-radius: 6px;
-      -moz-border-radius: 6px;
-      border-radius: 6px;
-      background: #ccc;
-      color: #222; }
+      color: @accent-color; }
   .slicknav_nav .slicknav_txtnode {
     margin-left: 15px; }
   .slicknav_nav .slicknav_item a {
